@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "formed=false": { "model": "astronautics:block/antenna_controller" },
+    "formed=true": { "model": "astronautics:block/antenna/antenna_dish" }
+  }
+}

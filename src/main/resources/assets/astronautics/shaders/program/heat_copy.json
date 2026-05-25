@@ -1,0 +1,7 @@
+{
+  "vertex": "veil:pinwheel/core/blit_screen_effect",
+  "fragment": "astronautics:heat_copy",
+  "samplers": [
+    { "name": "DiffuseSampler0" }
+  ]
+}

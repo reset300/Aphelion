@@ -1,0 +1,16 @@
+{
+  "vertex": "veil:pinwheel/core/blit_screen_effect",
+  "fragment": "astronautics:heat_distortion",
+  "samplers": [
+    { "name": "DiffuseSampler0" },
+    { "name": "DiffuseDepthSampler" },
+    { "name": "HeatMaskSampler" }
+  ],
+  "uniforms": [
+    { "name": "DistortionStrength", "type": "float", "values": [0.035] },
+    { "name": "ThermalLift", "type": "float", "values": [0.75] },
+    { "name": "NoiseScale", "type": "float", "values": [38.0] },
+    { "name": "TimeScale", "type": "float", "values": [1.65] },
+    { "name": "GameTime", "type": "float", "values": [0.0] }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.BreadRes.astronautics.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MinecraftScreenMixin",
+    "ServerSubLevelMixin",
+    "accessor.FluidTankBlockEntityAccessor"
+  ],
+  "client": [
+    "accessor.BiomeManagerAccessor",
+    "accessor.ClientPacketListenerAccessor",
+    "accessor.IsFlatAccessor",
+    "accessor.LevelLoadingScreenAccessor",
+    "accessor.MinecraftAccessor",
+    "client.BlurMixin",
+    "client.MixinClientPacketListener",
+    "client.MixinEntity",
+    "client.MixinGameRenderer",
+    "client.MixinMinecraft",
+    "client.MixinParticleEngine"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

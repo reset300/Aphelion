@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "astronautics:block/control_panel" },
+    "facing=south": { "model": "astronautics:block/control_panel", "y": 180 },
+    "facing=west":  { "model": "astronautics:block/control_panel", "y": 270 },
+    "facing=east":  { "model": "astronautics:block/control_panel", "y": 90 }
+  }
+}

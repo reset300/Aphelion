@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "ttf",
+      "file": "astronautics:fonts/fixedsys.ttf",
+      "size": 11,
+      "oversample": 1,
+      "shift": [0,0]
+    }
+  ]
+}

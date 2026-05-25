@@ -1,0 +1,4 @@
+// 1.21.1	2026-05-06T19:11:44.0984046	Astronautics Planet Dimensions
+2cdb9f0d0f85823886fee87a3bca888e11e5c2dd data/astronautics/dimension/earth_orbit.json
+46b4ba03585e8f68523f89b3c60132106a547015 data/astronautics/dimension_type/earth_orbit.json
+75a7754106e9dd5d4cd390876e00e58ee4f7fb88 data/astronautics/worldgen/biome/earth_orbit.json

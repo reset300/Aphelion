@@ -1,0 +1,11 @@
+{
+  "type": "astronautics:space",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "astronautics:space",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "astronautics:space"
+    }
+  }
+}

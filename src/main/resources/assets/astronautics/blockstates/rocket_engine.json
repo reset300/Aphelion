@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=up,half=lower":    { "model": "astronautics:block/rocket_engine" },
+    "facing=down,half=lower":  { "model": "astronautics:block/rocket_engine", "x": 180 },
+
+    "facing=north,half=lower": { "model": "astronautics:block/rocket_engine", "x": 90 },
+    "facing=south,half=lower": { "model": "astronautics:block/rocket_engine", "x": 90, "y": 180 },
+
+    "facing=west,half=lower":  { "model": "astronautics:block/rocket_engine", "x": 90, "y": 270 },
+    "facing=east,half=lower":  { "model": "astronautics:block/rocket_engine", "x": 90, "y": 90 },
+
+    "facing=up,half=upper":    { "model": "astronautics:block/empty" },
+    "facing=down,half=upper":  { "model": "astronautics:block/empty" },
+    "facing=north,half=upper": { "model": "astronautics:block/empty" },
+    "facing=south,half=upper": { "model": "astronautics:block/empty" },
+    "facing=west,half=upper":  { "model": "astronautics:block/empty" },
+    "facing=east,half=upper":  { "model": "astronautics:block/empty" }
+  }
+}

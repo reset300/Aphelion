@@ -1,0 +1,43 @@
+{
+  "stages": [
+    {
+      "type": "veil:blit",
+      "shader": "astronautics:heat_distortion",
+      "in": "minecraft:main",
+      "out": "rocket_heat_temp",
+      "clear": true,
+      "uniforms": {
+        "DistortionStrength": 0.075,
+        "ThermalLift": 1.4,
+        "NoiseScale": 56.0,
+        "TimeScale": 2.3
+      }
+    },
+    {
+      "type": "veil:blit",
+      "shader": "astronautics:heat_copy",
+      "in": "rocket_heat_temp",
+      "out": "minecraft:main",
+      "clear": false
+    }
+  ],
+  "framebuffers": {
+    "rocket_heat_mask": {
+      "depth": false,
+      "filter": { "blur": true },
+      "format": "RGBA8"
+    },
+    "rocket_heat_temp": {
+      "depth": false,
+      "filter": { "blur": true },
+      "format": "RGBA8"
+    }
+  },
+  "textures": {
+    "HeatMaskSampler": {
+      "type": "framebuffer",
+      "name": "rocket_heat_mask"
+    }
+  },
+  "renderStage": "after_block_entities"
+}

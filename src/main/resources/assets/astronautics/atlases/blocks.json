@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "astronautics:block/pipe_straight",
+      "sprite": "astronautics:block/pipe_straight"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "astronautics:block/pipe_corner",
+      "sprite": "astronautics:block/pipe_corner"
+    }
+  ]
+}
